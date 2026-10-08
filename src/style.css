@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #f5b82e;
+  --color-owed: #e8604c;
+  --color-paid: #2f9e5b;
+  --color-ink: #1f2328;
+  --color-surface: #fffbf3;
+
+  --color-person-1: #e8604c;
+  --color-person-2: #3b82c4;
+  --color-person-3: #2f9e5b;
+  --color-person-4: #9b5ec7;
+  --color-person-5: #e08a1e;
+  --color-person-6: #d14d8f;
+  --color-person-7: #1f9e9e;
+  --color-person-8: #6b7a3a;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-ink antialiased;
+  }
+}
